@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(159, 38%, 67%);
+  font: 400 1rem "DM Sans", sans-serif;
+}
+
+h1 {
+  font: 700 1.875rem "Poppins", sans-serif;
+}
+
+a {
+  /* tira a decoração da linha de link a com text decoration none */
+  text-decoration: none;
+}
+
+:root {
+  /* font-size: 100%; */
+}
+
+#header {
+  height: 4.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  background-color: brown;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
